@@ -38,3 +38,56 @@ The ranges that are specified in the following table are inclusive-inclusive.
 |`char`|1|none|-128 to 127 by default<br /><br /> 0 to 255 when compiled by using [/J](../build/reference/j-default-char-type-is-unsigned.md)|
 |`float`|4|none|3.4E +/- 38 (7 digits)|
 |`double`|8|none|1.7E +/- 308 (15 digits)|
+
+# Character constant
+
+Character constants are one or more members of the “source character set,” the character set in which a program is written, surrounded by single quotation marks (').
+
+| Escape sequence | Define |
+| ---- | ---- |
+| \\\\ | \ character |
+| \' | ' character |
+| \" | " character |
+| \? | ? character |
+| \a | Alarm ringtone |
+| \b | Backspace key |
+| \f | Form feed |
+| \n | Line break |
+| \r | Carriage return |
+| \t | Horizontal tab |
+| \v | Vertical tab |
+| \ooo | One to three octal numbers |
+| \xhh . . . | Hexadecimal number of one or more digits |
+
+# Define constants
+
+Constant is something that doesn't change.
+
+# Operator
+
+## Math operators
+
+Assuming that the value of variable A is 10 and the value of variable B is 20, then:
+
+| Operator | Description | Examples |
+| ---- | ---- | ---- |
+| + | Add two operands | A + B will get 30 |
+| - | Subtract the second operand from the first operand | A - B wil get -10 |
+| * | Multiply two operands | A * B will get 200 |
+| / | Numerator divided by denominator | B / A will get 2 |
+| % | Modulus operator, remainder after division | B % A will get 0 |
+| ++ | Integer value increase 1 | A++ will get 11 |
+| -- | Integer value reduction 1 | A-- will get 9 |
+
+## Relational operator
+
+Assuming that the value of variable A is 10 and the value of variable B is 20, then:
+
+| Operator | Description | Examples |
+| ---- | ---- | ---- |
+| == | Check if the values of the two operands are equal, if they are equal then the condition is true. | (A == B) Not true |
+| != | Check whether the values of the two operands are equal, if not equal, the condition is true. | (A != B) True |
+| &gt; | Check if the value of the left operand is greater than the value of the right operand, and if so, the condition is true. | (A &gt; B) Not true |
+| &lt; | Check if the value of the left operand is less than the value of the right operand, and if so, the condition is true. | (A &lt; B) True |
+| &gt;= | Check if the value of the left operand is greater than or equal to the value of the right operand, and if so, the condition is true. | (A &gt;= B) Not true |
+| &lt;= | Check if the value of the left operand is less than or equal to the value of the right operand, and if so, the condition is true. | (A &lt;= B) True |
