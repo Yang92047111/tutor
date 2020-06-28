@@ -1,3 +1,6 @@
+*.docx
+.DS_Store
+
 # 0623 tutor
 0623/paper/
 0623/example
