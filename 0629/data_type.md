@@ -56,8 +56,6 @@ Character constants are one or more members of the “source character set,” t
 | \r | Carriage return |
 | \t | Horizontal tab |
 | \v | Vertical tab |
-| \ooo | One to three octal numbers |
-| \xhh . . . | Hexadecimal number of one or more digits |
 
 # Define constants
 
@@ -91,3 +89,31 @@ Assuming that the value of variable A is 10 and the value of variable B is 20, t
 | &lt; | Check if the value of the left operand is less than the value of the right operand, and if so, the condition is true. | (A &lt; B) True |
 | &gt;= | Check if the value of the left operand is greater than or equal to the value of the right operand, and if so, the condition is true. | (A &gt;= B) Not true |
 | &lt;= | Check if the value of the left operand is less than or equal to the value of the right operand, and if so, the condition is true. | (A &lt;= B) True |
+
+# Decision
+
+Decision making structures require that the programmer specify one or more conditions to be evaluated or tested by the program, along with a statement or statements to be executed if the condition is determined to be true, and optionally, other statements to be executed if the condition is determined to be false.
+
+| Statement | description |
+| ---- | ---- |
+| [if Statement](http://www.runoob.com/cplusplus/cpp-if.html) | An **if statement** consists of a boolean expression followed by one or more statements. |
+| [if...else Statement](http://www.runoob.com/cplusplus/cpp-if-else.html) | An **if statement** can be followed by an optional **else statement**, which executes when the boolean expression is false. |
+| [Nested if Statement](http://www.runoob.com/cplusplus/cpp-nested-if.html) | You can use one **if** or **else if** statement inside another **if** or **else if** statement(s). |
+| [switch Statement](http://www.runoob.com/cplusplus/cpp-switch.html) | A **switch statement** allows a variable to be tested for equality against a list of values. |
+| [Nested Switch Statement](http://www.runoob.com/cplusplus/cpp-nested-switch.html) | You can use one **switch statement** inside another **switch** statement(s). |
+
+## The ? : Operator
+
+We have covered conditional operator "? :" in previous chapter which can be used to replace **if...else** statements. It has the following general form
+
+```C++
+if(y < 10){ 
+   var = 30;
+}else{
+   var = 40;
+}
+```
+
+```C++
+var = (y < 10) ? 30 : 40;
+```
