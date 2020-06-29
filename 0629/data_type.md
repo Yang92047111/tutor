@@ -117,3 +117,137 @@ if(y < 10){
 ```C++
 var = (y < 10) ? 30 : 40;
 ```
+
+# Practice & Exercises
+
+## Practice
+
+1. Write a program in C++ to find Size of fundamental data types. Sample Output:
+
+```C++
+Find Size of fundamental data types :
+------------------------------------------
+The sizeof(char) is : 1 bytes
+The sizeof(short) is : 2 bytes
+The sizeof(int) is : 4 bytes
+The sizeof(float) is : 4 bytes
+The sizeof(double) is : 8 bytes
+The sizeof(bool) is : 1 bytes
+```
+
+2. Write a program in C++ to check the upper and lower limits of integer. Expected Output:
+
+```C++
+Check the upper and lower limits of integer :
+--------------------------------------------------
+The maximum limit of int data type : 2147483647
+The minimum limit of int data type : -2147483648
+The maximum limit of char data type : 127
+The minimum limit of char data type : -128
+The minimum limit of short data type : -32768
+The maximum limit of short data type : 32767
+```
+hint: ```#include <climits>```
+
+3. Write a program in C++ to print the following pattern. Sample Output:
+
+```C++
+ xxxxx
+x     x       x        x
+x             x        x
+x          xxxxxxx  xxxxxxx
+x             x        x 
+x     x       x        x
+ xxxxx
+```
+
+4. Write a program in C++ to find the third angle of a triangle. Sample Output:
+
+```C++
+Find the third angle of a triangle :
+-----------------------------------------
+Input the 1st angle of the triangle : 30
+Input the 2nd angle of the triangle : 60
+The 3rd of the triangle is : 90
+```
+
+5. Write a program in C++ to print the area and perimeter of a rectangle. Sample Output:
+
+```C++
+Print the area and perimeter of a rectangle:
+----------------------------------------------
+Input the width of the rectangle: 8.5
+Input the height of the rectangle: 5.6
+The area of the rectangle is: 47.6
+The perimeter of the rectangle is: 28.2
+```
+
+## Exercises
+
+1. Write a language program which accepts the radius of a circle from the user and compute the area and circumference. Sample Output:
+
+```C++
+Find the area and circumference of any circle :
+----------------------------------------------------
+Input the radius(1/2 of diameter) of a circle : 5
+The area of the circle is : 78.5397
+The circumference of the circle is : 31.4159
+```
+
+2. Write a program in C++ to display various type or arithmetic operation using mixed data type. Sample output:
+
+```C++
+Display arithmetic operations with mixed data type :
+---------------------------------------------------------
+5 + 7 = 12
+3.7 + 8.0 = 11.7
+5 + 8.0 = 13.0
+5 - 7 = -2
+3.7 - 8.0 = -4.3
+5 - 8.0 = -3.0
+5 * 7 = 35
+3.7 * 8.0 = 29.6
+5 * 8.0 = 40.0
+5 / 7 = 0
+3.7 / 8.0 = 0.5
+5 / 8.0 = 0.6
+```
+
+3. Write a program in C++ to compute quotient and remainder. Sample Output:
+
+```C++
+Compute quotient and remainder :
+-------------------------------------
+Input the dividend : 25
+Input the divisor : 3
+The quotient of the division is : 8
+The remainder of the division is : 1
+```
+
+4. Write a program in C++ to compute the specified expressions and print the output. Sample Output:
+
+```C++
+Compute the specified expressions and print the output:
+------------------------------------------------------------
+Result of the expression (25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5) is : 2.13889
+```
+
+5. Write a C++ program to display the current date and time. Sample Output:
+
+```C++
+Display the Current Date and Time :
+----------------------------------------
+seconds = 57
+minutes = 33
+hours = 12
+day of month = 6
+month of year = 7
+year = 2017
+weekday = 4
+day of year = 186
+daylight savings = 0
+Current Date: 6/7/2017
+Current Time: 12:33:57
+```
+
+hint: ```#include <ctime>```
