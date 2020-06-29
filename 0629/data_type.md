@@ -118,9 +118,9 @@ if(y < 10){
 var = (y < 10) ? 30 : 40;
 ```
 
-# Practice & Exercises
+# Practices & Exercises
 
-## Practice
+## Practices
 
 1. Write a program in C++ to find Size of fundamental data types. Sample Output:
 
@@ -245,7 +245,6 @@ month of year = 7
 year = 2017
 weekday = 4
 day of year = 186
-daylight savings = 0
 Current Date: 6/7/2017
 Current Time: 12:33:57
 ```
