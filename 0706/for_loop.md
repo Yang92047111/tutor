@@ -434,6 +434,24 @@ Enter range: 12
 8 * 12 = 96
 ```
 
+3. C Program to Generate Multiplication Table.
+
 ## Exercises
 
 1. Write a program for Bulls and Cows (猜數字/終極密碼). The program first generates a random integer as the secret number s. For simplicity, assume that 1 <= s <= 100. Also, x denotes the input from the player. Then the program takes x and reports a updated range repeatedly until x == s. Note that the range should shrink monotonically because the player is limited to answer an integer between the range. If the range is one integer left, then the player loses the game.
+
+2. 莊家(及賭場老闆)和玩家(及玩家)各有1000元寶作為提示資金
+閒家下注的方式有三種：
+- (1) 買大 
+- (2)買小 
+- (3)買豹子
+
+   下面逐一介紹這三種方式的不同:
+   - 買大: 如果閒家所擲的三枚骰子的點數之和大於11，則閒家贏，否則莊家贏
+   - 買小:如果閒家所擲的三枚骰子的點數之和小於11，則閒家贏，否則莊家贏
+   - 買豹子:如果閒家所擲出的三枚骰子點數相等，則閒家贏，否則莊家贏
+   
+   
+   買大和買小的賠率都為2，即輸家一下注元寶的兩倍賠給贏家，買豹子的賠率是10
+   閒家和下注的元寶數必須在10到100元寶之間
+   閒家可隨時按q鍵結束賭博，否則繼續進行，直到一方的元寶輸完為止
